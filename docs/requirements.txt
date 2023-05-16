@@ -6,3 +6,4 @@ jupyter_client
 sphinx-autodoc-typehints
 astroid ==2.2.5
 nbconvert <6.0.0
+tornado>=6.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
